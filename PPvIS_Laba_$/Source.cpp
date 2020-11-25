@@ -1,4 +1,5 @@
 #include"Graph_and _Iters.h"
+#include "Graph_func.cpp"
 using namespace std;
 int main()
 {
@@ -8,8 +9,6 @@ int main()
 	{
 		test._add_node(i);
 	}
-	non_directed_graph<int>::iterator it = test.begin();
-	it._delete_node();
 	test._show();
 	
 }
